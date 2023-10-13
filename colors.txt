@@ -1,0 +1,527 @@
+note colours
+   
+   / 1.40625
+F4       82,   0,   0         0, 100,  32       #520000     CHSV(1, 255, 81)        0
+F#      116,   0,   0         0, 100,  45       #740000     CHSV(1, 255, 114)       20
+G       179,   0,   0         0, 100,  70       #b30000     CHSV(1, 255, 178)       41
+G#      238,   0,   0         0, 100,  93       #ee0000     CHSV(1, 255, 237)       62
+A       255,  99,   0        23, 100, 100       #ff6300     CHSV(16, 255, 255)      83
+A#      255, 236,   0        56, 100, 100       #ffec00     CHSV(40, 255, 255)      105
+
+B       153, 255,   0        84, 100, 100       #99ff00     CHSV(60, 255, 255)      126
+C        40, 255,   0       111, 100, 100       #28ff00     CHSV(79, 255, 255)      147
+C#        0, 255, 255       175, 100, 100       #00ffe8     CHSV(124, 255, 255)     168
+D         0, 124, 255       211, 100, 100       #007cff     CHSV(150, 255, 255)     189
+D#        5,   0, 255       241, 100, 100       #0500ff     CHSV(171, 255, 255)     210
+E        69,   0, 234       258, 100, 92        #4500ea     CHSV(183, 255, 234)     231
+F5       87,   0, 158       273, 100,  62       #57009e     CHSV(194, 255, 148)
+
+    Red (0..) "HUE_RED"
+    Orange (32..) "HUE_ORANGE"
+    Yellow (64..) "HUE_YELLOW"
+    Green (96..) "HUE_GREEN"
+    Aqua (128..) "HUE_AQUA"
+    Blue (160..) "HUE_BLUE"
+    Purple (192..) "HUE_PURPLE"
+    Pink(224..) "HUE_PINK"
+
+
+12 colour rainbow
+1   255, 0, 0       red                 CHSV(0, 255, 255)
+2   255, 127, 0     orange              CHSV(32, 255, 255)
+3   255, 255, 0     yellow              CHSV(64, 255, 255)
+4   127, 255, 0     greenish-yellow     CHSV(80, 255, 255)
+5   0, 255, 0       green               CHSV(96, 255, 255)
+6   0, 255, 127     greenish-blue       CHSV( , 255, 255)
+7   0, 255, 255     cyan                CHSV(128, 255, 255)
+8   0, 127, 255     skyflower blue      CHSV( , 255, 255)
+9   0, 0, 255       blue                CHSV(160, 255, 255)
+10  127, 0, 255     purple              CHSV( , 255, 255)
+11  255, 0, 255     pink                CHSV(192, 255, 255)
+12  255, 0, 127     magneta             CHSV( , 255, 255)
+
+7 colour rainbow
+1   255, 0, 0       red
+2   255, 127, 0     orange
+3   255, 255, 0     yellow
+4   0, 255, 0       green
+5   0, 255, 255     cyan
+6   0, 0, 255       blue
+7   165, 33, 255    purple
+
+blue palette
+1 03045e  darkest
+2 023e8a
+3 0077b6
+4 0096c7
+5 00b4d8
+6 48cae4
+7 90e0ef
+8 ade8f4
+9 caf0f8  lightest
+
+pink to blue
+1 f72585    hot pink
+2 b5179e
+3 7209b7
+4 560bad purple
+5 480ca8
+6 3a0ca3
+7 3f37c9
+8 4361ee
+9 4895ef
+10 4cc9f0
+
+pastel rainbow
+1 ffadad red
+2 ffd6a5 orange
+3 fdffb6 yellow
+4 caffbf green
+5 9bf6ff cyan
+6 a0c4ff blue
+7 bdb2ff purple
+8 ffc6ff pink
+
+purple to greenish-cyan
+1 7400b8 purple
+2 6930c3
+3 5e60ce
+4 5390d9
+5 4ea8de
+6 48bfe3
+7 56cfe1
+8 64dfdf
+9 72efdd
+10 80ffdb greenish-cyan
+
+pinks
+1 FF0A54 darkest
+2 FF477E
+3 FF5C8A
+4 FF7096
+5 FF85A1
+6 FF99AC
+7 FBB1BD
+8 F9BEC7
+9 F7CAD0
+10 FAE0E4
+
+turquoise
+1 07BEB8 darkest    126     96      75  =>      CHSV(126, 244, 191)
+2 3DCCC7            126     70      80  =>      CHSV(126, 178, 204)
+3 68D8D6            127     52      85  ->      127     165     229
+4 9CEAEF            131     35      94  ->      131     140     239
+5 C4FFF9            124     23      255 ->      124     127     255
+
+purple to green
+1 AF2BBF purple     294 77 75   209 CHSV(209, 229, 191)
+2 A14EBF            284 59 75   201 CHSV(201, 200, 191)
+3 6C91BF blueish    213 43 75   151 CHSV(151, 153, 191)
+4 5FB0B7            185 48 72   132 CHSV(132, 165, 183)
+5 5BC8AF greenish   166 54 78   118 CHSV(118, 153, 198)
+
+
+
+
+red shades
+ff ff ff
+ff eb eb
+ff d6 d6
+ff c2 c2
+ff ad ad
+ff 99 99
+ff 85 85
+ff 70 70         0,  58, 100
+ff 5c 5c         0,  64, 100
+ff 47 47         0,  72, 100
+ff 33 33         0,  80, 100
+ff 1f 1f         0,  88, 100
+ff 00 00 ------  0, 100, 100
+f5 00 00
+e0 00 00
+cc 00 00
+bb 00 00
+a3 00 00
+8f 00 00
+7a 00 00
+66 00 00
+52 00 00
+3d 00 00
+29 00 00
+14 00 00
+
+from fastled
+
+
+CHSV HSV_Aqua  		= CHSV( 161, 255, 255 );
+
+
+CHSV HSV_Aquamarine	= CHSV( 111, 75, 255 );
+CHSV HSV_AliceBlue  	= CHSV( 155, 8, 255 );
+CHSV HSV_Azure  	= CHSV( 155, 8, 255 );
+
+CHSV HSV_Amethyst = CHSV( 244, 94, 255 );
+const CHSV HSV_AntiqueWhite FL_PROGMEM = CHSV( 78, 21, 255);
+const CHSV HSV_Beige FL_PROGMEM = CHSV( 64, 18, 255 );
+const CHSV HSV_Bisque FL_PROGMEM = CHSV( 4, 31, 255 );
+const CHSV HSV_Black FL_PROGMEM = CHSV( 0, 0, 0 );
+const CHSV HSV_BlanchedAlmond FL_PROGMEM = CHSV( 15, 26, 255 );
+const CHSV HSV_Blue FL_PROGMEM = CHSV( 161, 255, 255 );
+const CHSV HSV_BlueViolet FL_PROGMEM = CHSV( 232, 151, 255 );
+const CHSV HSV_Brown FL_PROGMEM = CHSV( 1, 152, 252 );
+const CHSV HSV_BurlyWood FL_PROGMEM = CHSV( 77, 70, 255 );
+const CHSV HSV_CadetBlue FL_PROGMEM = CHSV( 144, 100, 255 );
+const CHSV HSV_Chartreuse FL_PROGMEM = CHSV( 84, 255, 255 );
+const CHSV HSV_Chocolate FL_PROGMEM = CHSV( 86, 168, 203 );
+const CHSV HSV_Coral FL_PROGMEM = CHSV( 50, 112, 255 );
+const CHSV HSV_CornflowerBlue FL_PROGMEM = CHSV( 135, 95, 255 );
+const CHSV HSV_Cornsilk FL_PROGMEM = CHSV( 123, 18, 255 );
+const CHSV HSV_Crimson FL_PROGMEM = CHSV( 188, 184, 157 );
+const CHSV HSV_Cyan FL_PROGMEM = CHSV( 161, 255, 255 );
+const CHSV HSV_DarkBlue FL_PROGMEM = CHSV( 161, 255, 188 );
+const CHSV HSV_DarkCyan FL_PROGMEM = CHSV( 139, 255, 255 );
+const CHSV HSV_DarkGoldenrod FL_PROGMEM = CHSV( 40, 202, 255 );
+const CHSV HSV_DarkGray FL_PROGMEM = CHSV( 0, 0, 208 );
+const CHSV HSV_DarkGreen FL_PROGMEM = CHSV( 96, 255, 160 );
+const CHSV HSV_DarkGrey FL_PROGMEM = CHSV( 0, 0, 208 );
+const CHSV HSV_DarkKhaki FL_PROGMEM = CHSV( 57, 90, 255 );
+const CHSV HSV_DarkMagenta FL_PROGMEM = CHSV( 213, 255, 255 );
+const CHSV HSV_DarkOliveGreen FL_PROGMEM = CHSV( 71, 146, 236 );
+const CHSV HSV_DarkOrange FL_PROGMEM = CHSV( 117, 255, 255 );
+const CHSV HSV_DarkOrchid FL_PROGMEM = CHSV( 247, 142, 255 );
+const CHSV HSV_DarkRed FL_PROGMEM = CHSV( 1, 255, 188 );
+const CHSV HSV_DarkSalmon FL_PROGMEM = CHSV( 57, 79, 255 );
+const CHSV HSV_DarkSeaGreen FL_PROGMEM = CHSV( 96, 64, 255 );
+const CHSV HSV_DarkSlateBlue FL_PROGMEM = CHSV( 172, 131, 244 );
+const CHSV HSV_DarkSlateGray FL_PROGMEM = CHSV( 137, 146, 201 );
+const CHSV HSV_DarkSlateGrey FL_PROGMEM = CHSV( 137, 146, 201 );
+const CHSV HSV_DarkTurquoise FL_PROGMEM = CHSV( 152, 255, 255 );
+const CHSV HSV_DarkViolet FL_PROGMEM = CHSV( 216, 255, 255 );
+const CHSV HSV_DeepPink FL_PROGMEM = CHSV( 188, 184, 255 );
+const CHSV HSV_DeepSkyBlue FL_PROGMEM = CHSV( 161, 255, 255 );
+const CHSV HSV_DimGray FL_PROGMEM = CHSV( 0, 0, 163 );
+const CHSV HSV_DimGrey FL_PROGMEM = CHSV( 0, 0, 163 );
+const CHSV HSV_DodgerBlue FL_PROGMEM = CHSV( 129, 168, 255 );
+const CHSV HSV_FairyLight FL_PROGMEM = CHSV( 36, 148, 231 );
+const CHSV HSV_FairyLightNCC FL_PROGMEM = CHSV( 75, 152, 255 );
+const CHSV HSV_FireBrick FL_PROGMEM = CHSV( 1, 162, 255 );
+const CHSV HSV_FloralWhite FL_PROGMEM = CHSV( 24, 8, 255 );
+const CHSV HSV_ForestGreen FL_PROGMEM = CHSV( 96, 162, 225 );
+const CHSV HSV_Fuchsia FL_PROGMEM = CHSV( 1, 255, 255 );
+const CHSV HSV_Gainsboro FL_PROGMEM = CHSV( 0, 0, 237 );
+const CHSV HSV_GhostWhite FL_PROGMEM = CHSV( 161, 4, 255 );
+const CHSV HSV_Gold FL_PROGMEM = CHSV( 48, 255, 255 );
+const CHSV HSV_Goldenrod FL_PROGMEM = CHSV( 86, 165, 255 );
+const CHSV HSV_Gray FL_PROGMEM = CHSV( 0, 0, 181 );
+const CHSV HSV_Green FL_PROGMEM = CHSV( 96, 255, 181 );
+const CHSV HSV_GreenYellow FL_PROGMEM = CHSV( 41, 146, 255 );
+const CHSV HSV_Grey FL_PROGMEM = CHSV( 0, 0, 181 );
+const CHSV HSV_Honeydew FL_PROGMEM = CHSV( 96, 8, 255 );
+const CHSV HSV_HotPink FL_PROGMEM = CHSV( 221, 92, 255 );
+const CHSV HSV_IndianRed FL_PROGMEM = CHSV( 1, 102, 174 );
+const CHSV HSV_Indigo FL_PROGMEM = CHSV( 196, 255, 229 );
+const CHSV HSV_Ivory FL_PROGMEM = CHSV( 64, 8, 255 );
+const CHSV HSV_Khaki FL_PROGMEM = CHSV( 47, 66, 255 );
+const CHSV HSV_Lavender FL_PROGMEM = CHSV( 161, 13, 255 );
+const CHSV HSV_LavenderBlush FL_PROGMEM = CHSV( 244, 8, 255 );
+const CHSV HSV_LawnGreen FL_PROGMEM = CHSV( 84, 255, 255 );
+const CHSV HSV_LemonChiffon FL_PROGMEM = CHSV( 45, 26, 255 );
+const CHSV HSV_LightBlue FL_PROGMEM = CHSV( 122, 45, 255 );
+const CHSV HSV_LightCoral FL_PROGMEM = CHSV( 1, 74, 255 );
+const CHSV HSV_LightCyan FL_PROGMEM = CHSV( 158, 16, 255 );
+const CHSV HSV_LightGoldenrodYellow FL_PROGMEM = CHSV( 64, 24, 255 );
+const CHSV HSV_LightGreen FL_PROGMEM = CHSV( 96, 63, 255 );
+const CHSV HSV_LightGrey FL_PROGMEM = CHSV( 0, 0, 232 );
+const CHSV HSV_LightPink FL_PROGMEM = CHSV( 240, 40, 255 );
+const CHSV HSV_LightSalmon FL_PROGMEM = CHSV( 44, 79, 255 );
+const CHSV HSV_LightSeaGreen FL_PROGMEM = CHSV( 153, 165, 255 );
+const CHSV HSV_LightSkyBlue FL_PROGMEM = CHSV( 160, 70, 255 );
+const CHSV HSV_LightSlateGray FL_PROGMEM = CHSV( 145, 81, 255 );
+const CHSV HSV_LightSlateGrey FL_PROGMEM = CHSV( 145, 81, 255 );
+const CHSV HSV_LightSteelBlue FL_PROGMEM = CHSV( 108, 43, 255 );
+const CHSV HSV_LightYellow FL_PROGMEM = CHSV( 64, 16, 255 );
+const CHSV HSV_Lime FL_PROGMEM = CHSV( 96, 255, 255 );
+const CHSV HSV_LimeGreen FL_PROGMEM = CHSV( 96, 142, 136 );
+const CHSV HSV_Linen FL_PROGMEM = CHSV( 72, 13, 255 );
+const CHSV HSV_Magenta FL_PROGMEM = CHSV( 1, 255, 255 );
+const CHSV HSV_Maroon FL_PROGMEM = CHSV( 1, 255, 181 );
+const CHSV HSV_MediumAquamarine FL_PROGMEM = CHSV( 155, 94, 255 );
+const CHSV HSV_MediumBlue FL_PROGMEM = CHSV( 161, 255, 229 );
+const CHSV HSV_MediumOrchid FL_PROGMEM = CHSV( 251, 108, 255 );
+const CHSV HSV_MediumPurple FL_PROGMEM = CHSV( 221, 86, 255 );
+const CHSV HSV_MediumSeaGreen FL_PROGMEM = CHSV( 135, 132, 255 );
+const CHSV HSV_MediumSlateBlue FL_PROGMEM = CHSV( 190, 92, 255 );
+const CHSV HSV_MediumSpringGreen FL_PROGMEM = CHSV( 142, 255, 255 );
+const CHSV HSV_MediumTurquoise FL_PROGMEM = CHSV( 132, 120, 184 );
+const CHSV HSV_MediumVioletRed FL_PROGMEM = CHSV( 255, 182, 255 );
+const CHSV HSV_MidnightBlue FL_PROGMEM = CHSV( 161, 175, 197 );
+const CHSV HSV_MintCream FL_PROGMEM = CHSV( 161, 5, 255 );
+const CHSV HSV_MistyRose FL_PROGMEM = CHSV( 20, 15, 255 );
+const CHSV HSV_Moccasin FL_PROGMEM = CHSV( 17, 40, 255 );
+const CHSV HSV_NavajoWhite FL_PROGMEM = CHSV( 10, 45, 255 );
+const CHSV HSV_Navy FL_PROGMEM = CHSV( 161, 255, 181 );
+const CHSV HSV_OldLace FL_PROGMEM = CHSV( 16, 13, 255 );
+const CHSV HSV_Olive FL_PROGMEM = CHSV( 64, 255, 255 );
+const CHSV HSV_OliveDrab FL_PROGMEM = CHSV( 70, 161, 255 );
+const CHSV HSV_Orange FL_PROGMEM = CHSV( 126, 255, 255 );
+const CHSV HSV_OrangeRed FL_PROGMEM = CHSV( 27, 255, 255 );
+const CHSV HSV_Orchid FL_PROGMEM = CHSV( 214, 86, 236 );
+const CHSV HSV_PaleGoldenrod FL_PROGMEM = CHSV( 47, 47, 255 );
+const CHSV HSV_PaleGreen FL_PROGMEM = CHSV( 96, 58, 255 );
+const CHSV HSV_PaleTurquoise FL_PROGMEM = CHSV( 137, 44, 255 );
+const CHSV HSV_PaleVioletRed FL_PROGMEM = CHSV( 196, 86, 255 );
+const CHSV HSV_PapayaWhip FL_PROGMEM = CHSV( 18, 22, 255 );
+const CHSV HSV_PeachPuff FL_PROGMEM = CHSV( 74, 38, 255 );
+const CHSV HSV_Peru FL_PROGMEM = CHSV( 85, 129, 240 );
+const CHSV HSV_Pink FL_PROGMEM = CHSV( 243, 34, 255 );
+const CHSV HSV_Plaid FL_PROGMEM = CHSV( 78, 141, 184 );
+const CHSV HSV_Plum FL_PROGMEM = CHSV( 209, 53, 245 );
+const CHSV HSV_PowderBlue FL_PROGMEM = CHSV( 146, 43, 255 );
+const CHSV HSV_Purple FL_PROGMEM = CHSV( 209, 255, 255 );
+const CHSV HSV_Red FL_PROGMEM = CHSV( 1, 255, 255 );
+const CHSV HSV_RosyBrown FL_PROGMEM = CHSV( 1, 64, 255 );
+const CHSV HSV_RoyalBlue FL_PROGMEM = CHSV( 134, 127, 232 );
+const CHSV HSV_SaddleBrown FL_PROGMEM = CHSV( 29, 186, 253 );
+const CHSV HSV_Salmon FL_PROGMEM = CHSV( 21, 85, 255 );
+const CHSV HSV_SandyBrown FL_PROGMEM = CHSV( 69, 99, 255 );
+const CHSV HSV_SeaGreen FL_PROGMEM = CHSV( 126, 147, 255 );
+const CHSV HSV_Seashell FL_PROGMEM = CHSV( 53, 9, 255 );
+const CHSV HSV_Sienna FL_PROGMEM = CHSV( 24, 148, 255 );
+const CHSV HSV_Silver FL_PROGMEM = CHSV( 0, 0, 221 );
+const CHSV HSV_SkyBlue FL_PROGMEM = CHSV( 160, 70, 251 );
+const CHSV HSV_SlateBlue FL_PROGMEM = CHSV( 217, 104, 199 );
+const CHSV HSV_SlateGray FL_PROGMEM = CHSV( 145, 86, 254 );
+const CHSV HSV_SlateGrey FL_PROGMEM = CHSV( 145, 86, 254 );
+const CHSV HSV_Snow FL_PROGMEM = CHSV( 1, 3, 255 );
+const CHSV HSV_SpringGreen FL_PROGMEM = CHSV( 145, 255, 255 );
+const CHSV HSV_SteelBlue FL_PROGMEM = CHSV( 156, 122, 255 );
+const CHSV HSV_Tan FL_PROGMEM = CHSV( 90, 66, 255 );
+const CHSV HSV_Teal FL_PROGMEM = CHSV( 137, 255, 255 );
+const CHSV HSV_Thistle FL_PROGMEM = CHSV( 231, 34, 255 );
+const CHSV HSV_Tomato FL_PROGMEM = CHSV( 30, 121, 255 );
+const CHSV HSV_Turquoise FL_PROGMEM = CHSV( 129, 127, 204 );
+const CHSV HSV_Violet FL_PROGMEM = CHSV( 209, 73, 255 );
+const CHSV HSV_Wheat FL_PROGMEM = CHSV( 7, 41, 255 );
+const CHSV HSV_White FL_PROGMEM = CHSV( 0, 0, 255 );
+const CHSV HSV_WhiteSmoke FL_PROGMEM = CHSV( 0, 0, 250 );
+const CHSV HSV_Yellow FL_PROGMEM = CHSV( 64, 255, 255 );
+const CHSV HSV_YellowGreen FL_PROGMEM = CHSV( 11, 142, 255 );
+
+
+// palette conversions 
+
+CHSVPalette16 HSV_CloudColors_p = (
+	HSV_Blue,
+  	HSV_DarkBlue,
+	HSV_DarkBlue,
+	HSV_DarkBlue,
+
+	HSV_DarkBlue,
+	HSV_DarkBlue,
+	HSV_DarkBlue,
+	HSV_DarkBlue,
+
+	HSV_Blue,
+	HSV_DarkBlue,
+	HSV_SkyBlue,
+	HSV_SkyBlue,
+
+	HSV_LightBlue,
+	HSV_White,
+	HSV_LightBlue,
+	HSV_SkyBlue
+);
+
+CHSVPalette16 HSV_LavaColors_p = (
+	HSV_Black,
+	HSV_Maroon,
+	HSV_Black,
+	HSV_Maroon,
+
+	HSV_DarkRed,
+	HSV_DarkRed,
+	HSV_Maroon,
+	HSV_DarkRed,
+
+	HSV_DarkRed,
+	HSV_DarkRed,
+	HSV_Red,
+	HSV_Orange,
+
+	HSV_White,
+	HSV_Orange,
+	HSV_Red,
+	HSV_DarkRed
+);
+
+CHSVPalette16 HSV_OceanColors_p = (
+	HSV_MidnightBlue,
+	HSV_DarkBlue,
+	HSV_MidnightBlue,
+	HSV_Navy,
+
+	HSV_DarkBlue,
+	HSV_MediumBlue,
+	HSV_SeaGreen,
+	HSV_Teal,
+
+	HSV_CadetBlue,
+	HSV_Blue,
+	HSV_DarkCyan,
+	HSV_CornflowerBlue,
+
+	HSV_Aquamarine,
+	HSV_SeaGreen,
+	HSV_Aqua,
+	HSV_LightSkyBlue
+);
+
+
+CHSVPalette16 HSV_ForestColors_p = (
+	HSV_DarkGreen,
+	HSV_DarkGreen,
+	HSV_DarkOliveGreen,
+	HSV_DarkGreen,
+
+	HSV_Green,
+	HSV_ForestGreen,
+	HSV_OliveDrab,
+	HSV_Green,
+
+	HSV_SeaGreen,
+	HSV_MediumAquamarine,
+	HSV_LimeGreen,
+	HSV_YellowGreen,
+
+	HSV_LightGreen,
+	HSV_LawnGreen,
+	HSV_MediumAquamarine,
+	HSV_ForestGreen
+);
+/*
+/// HSV Rainbow
+extern const TProgmemRGBPalette16 RainbowColors_p FL_PROGMEM =
+{
+    0xFF0000, 0xD52A00, 0xAB5500, 0xAB7F00,
+    0xABAB00, 0x56D500, 0x00FF00, 0x00D52A,
+    0x00AB55, 0x0056AA, 0x0000FF, 0x2A00D5,
+    0x5500AB, 0x7F0081, 0xAB0055, 0xD5002B
+};
+
+/// HSV Rainbow colors with alternatating stripes of black
+#define RainbowStripesColors_p RainbowStripeColors_p
+extern const TProgmemRGBPalette16 RainbowStripeColors_p FL_PROGMEM =
+{
+    0xFF0000, 0x000000, 0xAB5500, 0x000000,
+    0xABAB00, 0x000000, 0x00FF00, 0x000000,
+    0x00AB55, 0x000000, 0x0000FF, 0x000000,
+    0x5500AB, 0x000000, 0xAB0055, 0x000000
+};
+
+/// HSV color ramp: blue purple ping red orange yellow (and back)
+/// Basically, everything but the greens, which tend to make
+/// people's skin look unhealthy.  This palette is good for
+/// lighting at a club or party, where it'll be shining on people.
+extern const TProgmemRGBPalette16 PartyColors_p FL_PROGMEM =
+{
+    0x5500AB, 0x84007C, 0xB5004B, 0xE5001B,
+    0xE81700, 0xB84700, 0xAB7700, 0xABAB00,
+    0xAB5500, 0xDD2200, 0xF2000E, 0xC2003E,
+    0x8F0071, 0x5F00A1, 0x2F00D0, 0x0007F9
+};
+
+/// Approximate "black body radiation" palette, akin to
+/// the FastLED 'HeatColor' function.
+/// Recommend that you use values 0-240 rather than
+/// the usual 0-255, as the last 15 colors will be
+/// 'wrapping around' from the hot end to the cold end,
+/// which looks wrong.
+extern const TProgmemRGBPalette16 HeatColors_p FL_PROGMEM =
+{
+    0x000000,
+    0x330000, 0x660000, 0x990000, 0xCC0000, 0xFF0000,
+    0xFF3300, 0xFF6600, 0xFF9900, 0xFFCC00, 0xFFFF00,
+    0xFFFF33, 0xFFFF66, 0xFFFF99, 0xFFFFCC, 0xFFFFFF
+};
+// Gradient palette "Rainbow_gp",
+// provided for situations where you're going
+// to use a number of other gradient palettes, AND
+// you want a 'standard' FastLED rainbow as well.
+
+
+DEFINE_GRADIENT_PALETTE( Rainbow_gp ) {
+      0,  255,    0,    0, // Red
+     32,  171,   85,    0, // Orange
+     64,  171,  171,    0, // Yellow
+     96,    0,  255,    0, // Green
+    128,    0,  171,   85, // Aqua
+    160,    0,    0,  255, // Blue
+    192,   85,    0,  171, // Purple
+    224,  171,    0,   85, // Pink
+    255,  255,    0,    0};// and back to Red
+
+ CRGBPalette16 test_pal = CRGBPalette16(CHSV( 120, 255, 25),  CHSV( 20, 25, 55),    CHSV( 30, 255, 105),  CHSV( 40, 255, 155),
+                                       CHSV( 90, 255, 205),  CHSV( 110, 255, 255), CHSV( 178, 255, 255), CHSV( 210, 55, 155),
+                                       CHSV( 220, 255, 255), CHSV( 230, 255, 255), CHSV( 140, 55, 55),   CHSV( 245, 255, 255),
+                                       CHSV( 246, 255, 255), CHSV( 247, 155, 55),  CHSV( 250, 255, 255), CHSV( 252, 255, 255));
+				       */
+// Basic operation is like this: (example shows the 16-entry variety)
+// 1. Declare your palette storage:
+//    CRGBPalette16 myPalette;
+//class CHSVPalette16;
+/*CHSV ColorFromPalette( const CHSVPalette16& pal,
+                       uint8_t index,
+                       uint8_t brightness=255,
+                       TBlendType blendType=LINEARBLEND);
+    CHSVPalette16& operator=( const TProgmemHSVPalette16& rhs)
+    {
+        for( uint8_t i = 0; i < 16; ++i) {
+            CRGB xyz   =  FL_PGM_READ_DWORD_NEAR( rhs + i);
+            entries[i].hue = xyz.red;
+            entries[i].sat = xyz.green;
+            entries[i].val = xyz.blue;
+        }
+        return *this;
+    }
+
+*/
+//
+// 2. Fill myPalette with your own 16 colors, or with a preset color scheme.
+//    You can specify your 16 colors a variety of ways:
+//      CRGBPalette16 myPalette(
+//          CRGB::Black,
+//          CRGB::Black,
+//          CRGB::Red,
+//          CRGB::Yellow,
+//          CRGB::Green,
+//          CRGB::Blue,
+//          CRGB::Purple,
+//          CRGB::Black,
+//
+//          0x100000,
+//          0x200000,
+//          0x400000,
+//          0x800000,
+//
+//          CHSV( 30,255,255),
+//          CHSV( 50,255,255),
+//          CHSV( 70,255,255),
+//          CHSV( 90,255,255)
+//      );
+//
+//    Or you can initiaize your palette with a preset color scheme:
+//      myPalette = RainbowStripesColors_p;
+//
+// 3. Any time you want to set a pixel to a color from your palette, use
+//    "ColorFromPalette(...)" as shown:
+//
+//      uint8_t index = /* any value 0..255 */;
+//      leds[i] = ColorFromPalette( myPalette, index);
+//
+//    Even though your palette has only 16 explicily defined entries, you
+//    can use an 'index' from 0..255.  The 16 explicit palette entries will
+//    be spread evenly across the 0..255 range, and the intermedate values
+//    will be RGB-interpolated between adjacent explicit entries.
+//
+//    It's easier to use than it sounds.
+//
