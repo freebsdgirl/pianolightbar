@@ -11,5 +11,3 @@ data pin: 51
 clock pin: 52
 
 
-
-
