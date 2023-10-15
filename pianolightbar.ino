@@ -1,6 +1,7 @@
 #include "pianolightbar.h"
 #include "key.h"
 #include "mode.h"
+#include "controls.h"
 
 
 MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI);
@@ -36,6 +37,7 @@ void setup() {
 
 	MODE_OCEAN = true;
 	setup_modes();
+	setup_controls();
 }
 
 
@@ -54,4 +56,6 @@ void loop() {
 	if ( st.loop_i == 255 ) {
 		st.loop_i = 0;
 	}
+
+	loop_controls();
 }
