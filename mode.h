@@ -13,8 +13,6 @@ mode MODE_BLUR;
 mode MODE_FADE;
 mode MODE_INSTANT_OFF; 		// default: keys immediately turn off when released.
 mode MODE_OCEAN;
-uint8_t blur_value = 150;
-uint8_t fade_value = 8;
 
 // hue values for each pitch
 // TODO - move to PROGMEM
@@ -30,4 +28,5 @@ void mode_blur();
 void mode_fade();
 void mode_instant_off();
 void mode_ocean();
+
 #endif

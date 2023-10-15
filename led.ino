@@ -1,9 +1,11 @@
 #include "pianolightbar.h"
 #include "key.h"
 
+
 void blend_palette() {
 	nblendPaletteTowardPalette(currentPalette, targetPalette, 1);
 }
+
 
 bool led_is_on(uint8_t led_i) {
 	if ( 	l[led_i].raw[0] == 0 && 
@@ -20,28 +22,17 @@ void update_hue() {
 	for (int i = 0; i < NUM_KEYS; i++) {
 		if ( keys[i].active() ) {
 			CHSV current_key = CHSV(keys[i].h, keys[i].s, keys[i].v);
-			D("current key hsv: ");
-			D(keys[i].h);
-			D(",");
-			D(keys[i].s);
-			D(",");
-			D(keys[i].v);
-			D(" new: ");
-			D(target_color.h);
-			D(",");
-			D(target_color.s);
-			D(",");
-			D(target_color.v);
 			CHSV new_key = nblend(next_color, target_color, beatsin8(6, 0, 255, 0, 2500), SHORTEST_HUES);
+
+			snprintf(debug_msg, sizeof(debug_msg), "hsv current: %d,%d,%d new: %d,%d,%d blend: %d,%d,%d", 
+				keys[i].h, keys[i].s, keys[i].v, 
+				target_color.h, target_color.s, target_color.v, 
+				new_key.h, new_key.s, new_key.v);
+			DLN(debug_msg);
+			
 			keys[i].h = new_key.h;
 			keys[i].s = new_key.s;
 			keys[i].v = new_key.v;
-			D(" blended: ");
-			D(keys[i].h);
-			D(",");
-			D(keys[i].s);
-			D(",");
-			DLN(keys[i].v);
 		} 
 		/*
 		else {

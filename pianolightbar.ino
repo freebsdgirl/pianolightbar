@@ -18,7 +18,7 @@ void setup() {
 	Serial.begin(115200);
 
 	/***** LEDs *****/
-	FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(l, NUM_LEDS).setCorrection(TypicalLEDStrip);
+	FastLED.addLeds<LED_TYPE,DATA_PIN,CLK_PIN,COLOR_ORDER>(l, NUM_LEDS);
 
 	FastLED.clear();
 	FastLED.show();
@@ -45,7 +45,6 @@ void loop() {
 	// track loop iterations - this is used by mode functions
 	// to see how often they should run, set by the value in
 	// st.<mode>_s, which defaults to _<MODE>_SPEED
-
 	st.loop_i++;
 
 	update_leds();

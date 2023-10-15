@@ -15,8 +15,9 @@ void setup_modes() {
 	if ( MODE_INSTANT_OFF ) 	{ mode_instant_off_init(); 	}
 }
 
+
+// if a key is marked as active, set a new hue value
 void mode_ocean() {
-	//TRLN("mode_ocean()");
 	CHSVPalette16 HSV_OceanColors_p;
 
 	HSV_OceanColors_p = CHSVPalette16(
@@ -47,7 +48,6 @@ void mode_ocean() {
 		CHSV new_colour = ColorFromPalette(HSV_OceanColors_p, beatsin8(6, 0, 255, 0, 0), 255, LINEARBLEND);
 		for ( int key_index = 0; key_index < NUM_KEYS; key_index++ ) {
 			if ( keys[key_index].active() ) {
-				//DLN("setting hsv");
 				keys[key_index].set_hsv( new_colour.h, new_colour.s, new_colour.v );
 				keys[key_index].set_default_hsv( new_colour.h, new_colour.s, new_colour.v );
 			}
@@ -55,9 +55,9 @@ void mode_ocean() {
 	}
 }
 
+
 void mode_ocean_init() {
 	TRLN("mode_ocean_init()");
-	blur_value = 164;
 	MODE_BLUR = true;
 
 	MODE_DEFAULT = false;
@@ -66,6 +66,7 @@ void mode_ocean_init() {
 	MODE_FADE = true;
 	MODE_INSTANT_OFF = false;
 }
+
 
 // set up our default mode
 void mode_default() {
@@ -82,6 +83,7 @@ void mode_default() {
 
 }
 
+
 // set each key to the same colour.
 void mode_single_hue_init() {
 	MODE_HUE_FROM_PITCH = false;
@@ -89,6 +91,7 @@ void mode_single_hue_init() {
 		keys[key_index].set_default_hsv(_default_hue, _default_saturation, _default_value);
 	}
 }
+
 
 // set hue based on the note/pitch value. 
 // i.e, all A keys are the same colour.
@@ -101,6 +104,7 @@ void mode_hue_from_pitch_init() {
 	}
 }
 
+
 // disable conflicting modes
 void mode_blur_init() {
 	TRLN("mode_blur_init()");
@@ -109,6 +113,7 @@ void mode_blur_init() {
 	//MODE_FADE = false;
 	MODE_INSTANT_OFF = false;
 }
+
 
 // blur all leds
 void mode_blur () {
@@ -119,6 +124,7 @@ void mode_blur () {
 	}
 }
 
+
 // disable conflicting modes
 void mode_fade_init() {
 	TRLN("mode_fade_init()");
@@ -128,6 +134,7 @@ void mode_fade_init() {
 	MODE_INSTANT_OFF = false;
 }
 
+
 // fade any led not marked as belonging to an active key
 void mode_fade() {
 	if ( st.loop_i % st.fade_s )
@@ -135,10 +142,11 @@ void mode_fade() {
 
 	for ( int key_index = 0; key_index < NUM_KEYS; key_index++ ) {
 		if ( ! keys[key_index].active() ) {
-			keys[key_index].fade( fade_value, true );
+			keys[key_index].fade( st.fade_s, true );
 		}
 	}
 }
+
 
 void mode_instant_off_init() {
 	TRLN("mode_instant_off_init()");
@@ -146,6 +154,7 @@ void mode_instant_off_init() {
 	MODE_FADE = false;
 	MODE_BLUR = false;
 }
+
 
 void mode_instant_off() {
 	//TRLN("mode_instant_off()");
