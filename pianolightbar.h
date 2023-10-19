@@ -22,8 +22,8 @@
 #define DEFAULT_SATURATION			255
 #define DEFAULT_HUE					128
 
-#define _BLUR_SPEED		5
-#define _FADE_SPEED		12
+#define _BLUR_SPEED		64	// used by blur1d() - 172 is max.
+#define _FADE_SPEED		12  // used by fade()
 
 
 // debug macros
@@ -45,9 +45,8 @@ struct piano_state {
 	uint8_t brightness;
 	uint8_t loop_i;
 
-	// how often to run each mode if enabled - smaller is faster
-	uint8_t blur_s;
-	uint8_t fade_s;
+	uint8_t blur_s;			// used by blur1d()
+	uint8_t fade_s;			// used by fade()
 } st;
 
 bool needs_update = false;

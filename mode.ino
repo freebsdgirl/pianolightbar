@@ -107,30 +107,22 @@ void mode_hue_from_pitch_init() {
 
 // disable conflicting modes
 void mode_blur_init() {
-	TRLN("mode_blur_init()");
-	
 	MODE_DEFAULT = false;
-	//MODE_FADE = false;
 	MODE_INSTANT_OFF = false;
 }
 
 
 // blur all leds
 void mode_blur () {
-	//TRLN("mode_blur()");
-	
 	EVERY_N_MILLISECONDS(10) {
-		blur1d( l, NUM_LEDS, 64 );
+		blur1d( l, NUM_LEDS, st.blur_s );
 	}
 }
 
 
 // disable conflicting modes
 void mode_fade_init() {
-	TRLN("mode_fade_init()");
-	
 	MODE_DEFAULT = false;
-	//MODE_BLUR = false;
 	MODE_INSTANT_OFF = false;
 }
 
